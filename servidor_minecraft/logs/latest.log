@@ -1,0 +1,461 @@
+[21:00:56] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[21:00:56] [ForkJoinPool-1-worker-1/WARN]: Mod croptopia uses the version ${mod_version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${mod_version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:00:56] [main/INFO]: Loading 113 mods:
+	- alexsmobs 1.20.1-1.4.0
+	- almanac 1.0.2
+	- appleskin 2.5.2+mc1.20.1
+	- architectury 9.2.14
+	- artifacts 9.5.17
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- expandability 9.0.4
+	   \-- step-height-entity-attribute 1.2.0
+	- artifacts-merging 1.0.2+1.20.1
+	- artifactscrafting 1.0.4
+	- balm 7.3.41
+	   \-- kuma_api 20.1.12
+	- betterdungeons 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- carryon 2.1.2.7
+	- citadel 1.20.1-1.0.0
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- connectedglass 1.1.14
+	- creativecore 2.12.39
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- croptopia ${mod_version}
+	- elytraslot 6.4.4+1.20.1
+	   \-- mixinsquared 0.1.2-beta.6
+	- epherolib 1.2.0
+	- fabric-api 0.92.9+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.15+93aa238b77
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.68+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.9+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.6+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.15+0caff8d077
+	   |-- fabric-networking-v0 0.3.55+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.25+1802ada577
+	   |-- fabric-registry-sync-v0 2.4.1+4c0a70e677
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.34+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- forgeconfigapiport 8.0.3
+	- framework 0.8.0
+	   \-- org_javassist_javassist 3.29.2-GA
+	- fusion 1.3.5
+	- geckolib 4.8.4
+	   \-- com_eliotlash_mclib_mclib 20
+	- goblintraders 1.11.5
+	- itemphysic 1.8.13
+	- jade 11.13.1+fabric
+	- java 17
+	- jei 15.20.0.112
+	- letmedespawn 1.5.0
+	- lootr 0.7.35.86
+	- minecraft 1.20.1
+	- naturescompass 1.20.1-2.6.0-fabric
+	- paraglider 20.1.4
+	- sophisticatedbackpacks 1.20.1-3.23.4.5.110
+	- sophisticatedcore 1.20.1-1.2.7.15.166
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_loot 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |-- porting_lib_model_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- sound_physics_remastered 1.20.1-1.5.1
+	- supermartijn642corelib 1.1.21
+	- terrablender 3.0.1.10
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- trade_cycling 1.20.1-1.0.7
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- trashslot 15.1.5
+	- treechop 0.19.0
+	- trinkets 3.7.2
+	- waystones 14.1.20
+	- yungsapi 1.20-Fabric-4.0.6
+[21:00:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ASO/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:00:57] [main/INFO]: Compatibility level set to JAVA_17
+[21:00:57] [main/WARN]: Reference map 'citadel.refmap.json' for citadel.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:00:57] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:00:57] [main/WARN]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:00:57] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[21:00:57] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[21:00:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:01:04] [main/INFO]: Adding datapack listener capsid_recipes
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[21:01:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[21:01:04] [main/ERROR]: No data fixer registered for artifacts:mimic
+[21:01:04] [main/INFO]: Artifacts Merging initialized!
+[21:01:04] [main/INFO]: Hello Fabric world!
+[21:01:04] [main/INFO]: Mod proxy balm:permissions resolved as net.blay09.mods.balm.common.permission.CommonBalmPermissions@76497134
+[21:01:04] [main/INFO]: Reflections took 39 ms to scan 1 urls, producing 1 keys and 3 values
+[21:01:05] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[21:01:05] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:01:05] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:01:05] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:01:05] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[21:01:05] [main/INFO]: adding citadel surface rules via terrablender...
+[21:01:05] [main/ERROR]: Failed to setup Terrablender compat
+java.lang.NoSuchMethodException: terrablender.api.SurfaceRuleManager.addToDefaultSurfaceRulesAtStage(java.lang.Enum,java.lang.Enum,int,net.minecraft.class_6686$class_6708)
+	at java.lang.Class.getMethod(Class.java:2229) ~[?:?]
+	at com.github.alexthe666.citadel.compat.terrablender.TerrablenderCompat.setup(TerrablenderCompat.java:19) ~[citadel-1.20.1-1.0.0.jar:?]
+	at com.github.alexthe666.citadel.compat.ModCompatBridge.afterAllModsLoaded(ModCompatBridge.java:16) ~[citadel-1.20.1-1.0.0.jar:?]
+	at com.github.alexthe666.citadel.Citadel.onInitialize(Citadel.java:89) ~[citadel-1.20.1-1.0.0.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.18.2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[21:01:05] [main/INFO]: Creating default config file: croptopia_v3.conf
+[21:01:05] [main/INFO]: ExpandAbility here, who dis?
+[21:01:05] [main/INFO]: Reflections took 9 ms to scan 1 urls, producing 2 keys and 9 values
+[21:01:05] [main/ERROR]: No data fixer registered for goblin_trader
+[21:01:05] [main/ERROR]: No data fixer registered for vein_goblin_trader
+[21:01:06] [main/WARN]: Configuration file ./config/sophisticatedbackpacks-common.toml is not correct. Correcting
+[21:01:06] [main/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:06] [main/WARN]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
+[21:01:06] [main/ERROR]: No data fixer registered for 
+[21:01:06] [main/WARN]: Configuration file ./config/sophisticatedcore-client.toml is not correct. Correcting
+[21:01:06] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:06] [main/WARN]: Incorrect key client.sortButtonsPosition was corrected from null to its default, TITLE_LINE_RIGHT. 
+[21:01:06] [main/WARN]: Incorrect key client.playButtonSound was corrected from null to its default, true. 
+[21:01:06] [main/WARN]: Configuration file ./config/sophisticatedcore-common.toml is not correct. Correcting
+[21:01:06] [main/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:06] [main/WARN]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[21:01:06] [main/INFO]: Reflections took 12 ms to scan 1 urls, producing 1 keys and 4 values
+[21:01:06] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 1 keys and 4 values
+[21:01:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:01:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:01:09] [Thread-3/WARN]: Configuration file ./config/sophisticatedcore-common.toml could not be parsed. Correcting
+[21:01:09] [Thread-3/WARN]: Configuration file /workspaces/ASO/servidor_minecraft/./config/sophisticatedcore-common.toml is not correct. Correcting
+[21:01:09] [Thread-3/WARN]: Configuration file ./config/sophisticatedcore-common.toml could not be parsed. Correcting
+[21:01:09] [Thread-3/WARN]: Configuration file /workspaces/ASO/servidor_minecraft/./config/sophisticatedcore-common.toml is not correct. Correcting
+[21:01:09] [Thread-3/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:09] [Thread-3/WARN]: Incorrect key common.enabledItems was corrected from null to its default, [sophisticatedbackpacks:void_upgrade|true, sophisticatedbackpacks:advanced_refill_upgrade|true, sophisticatedbackpacks:copper_backpack|true, sophisticatedbackpacks:crafting_upgrade|true, sophisticatedbackpacks:advanced_pump_upgrade|true, sophisticatedbackpacks:upgrade_base|true, sophisticatedbackpacks:filter_upgrade|true, sophisticatedbackpacks:advanced_deposit_upgrade|true, sophisticatedbackpacks:smithing_upgrade|true, sophisticatedbackpacks:magnet_upgrade|true, sophisticatedbackpacks:anvil_upgrade|true, sophisticatedbackpacks:advanced_pickup_upgrade|true, sophisticatedbackpacks:jukebox_upgrade|true, sophisticatedbackpacks:xp_pump_upgrade|true, sophisticatedbackpacks:tank_upgrade|true, sophisticatedbackpacks:iron_backpack|true, sophisticatedbackpacks:auto_smelting_upgrade|true, sophisticatedbackpacks:advanced_void_upgrade|true, sophisticatedbackpacks:pickup_upgrade|true, sophisticatedbackpacks:auto_smoking_upgrade|true, sophisticatedbackpacks:smoking_upgrade|true, sophisticatedbackpacks:everlasting_upgrade|true, sophisticatedbackpacks:stack_upgrade_tier_4|true, sophisticatedbackpacks:stack_upgrade_tier_2|true, sophisticatedbackpacks:stack_upgrade_tier_3|true, sophisticatedbackpacks:stack_upgrade_tier_1|true, sophisticatedbackpacks:restock_upgrade|true, sophisticatedbackpacks:compacting_upgrade|true, sophisticatedbackpacks:stack_downgrade_tier_2|true, sophisticatedbackpacks:stack_downgrade_tier_1|true, sophisticatedbackpacks:stack_downgrade_tier_3|true, sophisticatedbackpacks:advanced_restock_upgrade|true, sophisticatedbackpacks:stack_upgrade_omega_tier|true, sophisticatedbackpacks:advanced_magnet_upgrade|true, sophisticatedbackpacks:stonecutter_upgrade|true, sophisticatedbackpacks:advanced_compacting_upgrade|true, sophisticatedbackpacks:advanced_jukebox_upgrade|true, sophisticatedbackpacks:stack_upgrade_starter_tier|true, sophisticatedbackpacks:blasting_upgrade|true, sophisticatedbackpacks:refill_upgrade|true, sophisticatedbackpacks:backpack|true, sophisticatedbackpacks:auto_blasting_upgrade|true, sophisticatedbackpacks:pump_upgrade|true, sophisticatedbackpacks:deposit_upgrade|true, sophisticatedbackpacks:advanced_tool_swapper_upgrade|true, sophisticatedbackpacks:auto_blasting_upgrade|true, sophisticatedbackpacks:tool_swapper_upgrade|true, sophisticatedbackpacks:advanced_filter_upgrade|true, sophisticatedbackpacks:smelting_upgrade|true, sophisticatedbackpacks:feeding_upgrade|true, sophisticatedbackpacks:battery_upgrade|true, sophisticatedbackpacks:advanced_feeding_upgrade|true, sophisticatedbackpacks:diamond_backpack|true, sophisticatedbackpacks:gold_backpack|true, sophisticatedbackpacks:inception_upgrade|true]. 
+[21:01:09] [main/INFO]: Loaded 9 recipes
+[21:01:09] [main/INFO]: Loaded 2162 advancements
+[21:01:09] [main/WARN]: Could not decode GlobalLootModifier with json id alexsmobs:banana_drop - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: alexsmobs:banana_drop
+[21:01:09] [main/WARN]: Could not decode GlobalLootModifier with json id alexsmobs:blossom_drop - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: alexsmobs:blossom_drop
+[21:01:09] [main/WARN]: Could not decode GlobalLootModifier with json id alexsmobs:ancient_dart - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: alexsmobs:ancient_dart
+[21:01:09] [main/WARN]: Could not decode GlobalLootModifier with json id alexsmobs:pigshoes - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: alexsmobs:pigshoes
+[21:01:10] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:01:10] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:01:10] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:01:10] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:01:10] [main/INFO]: Applied 989 biome modifications to 65 of 65 new biomes in 53.10 ms
+[21:01:10] [Server thread/WARN]: Configuration file ./config/sophisticatedbackpacks-server.toml is not correct. Correcting
+[21:01:10] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [furnace_upgrades|1, stack_upgrades|3, jukebox_upgrades|1]. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[21:01:10] [Server thread/WARN]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[21:01:10] [Server thread/INFO]: Loading server configs...
+[21:01:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:01:10] [Server thread/INFO]: Loading properties
+[21:01:10] [Server thread/INFO]: Default game type: SURVIVAL
+[21:01:10] [Server thread/INFO]: Generating keypair
+[21:01:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:01:10] [Server thread/INFO]: Using epoll channel type
+[21:01:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:01:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:01:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:01:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:01:10] [Server thread/INFO]: Preparing level "world"
+[21:01:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:01:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:01:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:21] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:01:21] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[21:01:22] [Worker-Main-3/INFO]: Preparing spawn area: 66%
+[21:01:22] [Server thread/INFO]: Time elapsed: 8321 ms
+[21:01:22] [Server thread/INFO]: Done (11.827s)! For help, type "help"
+[21:01:22] [Server thread/INFO]: Start loading plugin from Balm
+[21:01:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:01:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:01:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:01:22] [Server thread/INFO]: Start loading plugin from HT's TreeChop
+[21:01:22] [Server thread/INFO]: Start loading plugin from Waystones
+[21:02:29] [Server thread/INFO]: Doracks[/100.107.101.31:55172] logged in with entity id 107 at (1112.8625777136185, 127.0, -439.307392234137)
+[21:02:29] [Server thread/INFO]: Syncing config to Doracks (ce9006e5-c7d5-3a82-9eab-57b378b78da6)
+[21:02:29] [Server thread/INFO]: Doracks joined the game
+[21:02:51] [Server thread/INFO]: Tmarsi219[/100.109.76.68:52406] logged in with entity id 251 at (1104.0491953038206, 127.0, -453.742064612806)
+[21:02:51] [Server thread/INFO]: Syncing config to Tmarsi219 (fa9e6abc-6e4a-352b-b5da-32290d78f2d4)
+[21:02:51] [Server thread/INFO]: Tmarsi219 joined the game
+[21:03:33] [Server thread/INFO]: Doracks was slain by Zombie
+[21:07:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2145ms or 42 ticks behind
+[21:07:22] [Server thread/INFO]: Giving up search for pupfish chunk after 6 minutes. no pupfish will spawn in this world :( 
+[21:07:32] [Server thread/INFO]: Tmarsi219 fell from a high place
+[21:08:29] [Server thread/INFO]: Tmarsi219 fell from a high place
+[21:19:02] [Server thread/INFO]: Tmarsi219 has made the advancement [An Extra Seedy Place]
+[21:24:29] [Server thread/INFO]: Doracks fell from a high place
+[21:30:41] [Server thread/INFO]: Teleported Doracks to Tmarsi219
+[21:31:23] [Server thread/INFO]: Doracks has made the advancement [The Parrots and the Bats]
+[21:38:58] [Server thread/INFO]: Doracks has made the advancement [Not Today, Thank You]
+[21:39:10] [Server thread/INFO]: Doracks was shot by Skeleton
+[21:40:19] [Server thread/INFO]: Doracks has made the advancement [It's an Emu!!!]
+[21:45:14] [Server thread/INFO]: Doracks was slain by Zombie
+[21:50:12] [Server thread/INFO]: Doracks has made the advancement [Potted]
+[21:57:08] [Server thread/INFO]: Doracks was doomed to fall by Zombie
+[21:57:53] [Server thread/INFO]: Doracks fell from a high place
+[21:59:26] [Server thread/INFO]: Doracks was slain by Zombie
+[21:59:35] [Server thread/INFO]: Teleported Doracks to Tmarsi219
+[22:08:56] [Server thread/INFO]: Tmarsi219 was blown up by Creeper
+[22:10:38] [Server thread/INFO]: Doracks was slain by Zombie
+[22:12:39] [Server thread/INFO]: Teleported Doracks to Tmarsi219
+[22:13:11] [Server thread/INFO]: Faaaack[/100.84.204.110:62401] logged in with entity id 19800 at (195.27853566375754, 69.03584062504456, -2621.717318594798)
+[22:13:11] [Server thread/INFO]: Syncing config to Faaaack (f46da25e-0081-3f09-9120-d404b6619e4b)
+[22:13:11] [Server thread/INFO]: Faaaack joined the game
+[22:13:11] [Server thread/INFO]: Faaaack lost connection: Disconnected
+[22:13:11] [Server thread/INFO]: Faaaack left the game
+[22:13:11] [Server thread/WARN]: handleDisconnection() called twice
+[22:13:19] [Server thread/INFO]: Faaaack[/100.84.204.110:62407] logged in with entity id 19889 at (195.27853566375754, 69.03584062504456, -2621.717318594798)
+[22:13:19] [Server thread/INFO]: Syncing config to Faaaack (f46da25e-0081-3f09-9120-d404b6619e4b)
+[22:13:19] [Server thread/INFO]: Faaaack joined the game
+[22:13:20] [Server thread/INFO]: Faaaack lost connection: Disconnected
+[22:13:20] [Server thread/INFO]: Faaaack left the game
+[22:16:24] [Server thread/INFO]: Teleported Tmarsi219 to Doracks
+[22:17:03] [Server thread/INFO]: Tmarsi219 was obliterated by a sonically-charged shriek
+[22:17:04] [Server thread/INFO]: Doracks was slain by Warden
+[22:21:12] [Server thread/INFO]: Doracks was slain by Zombie
+[22:36:07] [Server thread/INFO]: Doracks lost connection: Disconnected
+[22:36:07] [Server thread/INFO]: Doracks left the game
+[22:36:07] [Server thread/WARN]: handleDisconnection() called twice
+[23:08:01] [Server thread/INFO]: Faaaack[/100.84.204.110:63493] logged in with entity id 24683 at (195.27853566375754, 69.03584062504456, -2621.717318594798)
+[23:08:01] [Server thread/INFO]: Syncing config to Faaaack (f46da25e-0081-3f09-9120-d404b6619e4b)
+[23:08:01] [Server thread/INFO]: Faaaack joined the game
+[23:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=196, y=64, z=-2591} class_2338{x=195, y=62, z=-2591}
